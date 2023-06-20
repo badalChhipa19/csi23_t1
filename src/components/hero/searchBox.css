@@ -1,0 +1,23 @@
+.search__box {
+  background-color: var(--color-white);
+  width: 80%;
+  padding: 0.3rem;
+  border-radius: 0.6rem;
+  display: flex;
+}
+
+input {
+  font-size: inherit;
+}
+.input {
+  border: none;
+  flex-grow: 1;
+  padding: 0 1rem;
+}
+.input:focus {
+  outline: none;
+}
+
+.input__btn {
+  border: none;
+}

@@ -1,0 +1,16 @@
+.hero {
+  background-image: url("../img/heroBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hero__content {
+  padding-top: 10%;
+  width: 50%;
+  padding-left: 10%;
+}
+
+.hero__text {
+  font-weight: 500;
+  margin-bottom: 4rem;
+}

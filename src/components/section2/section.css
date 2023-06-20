@@ -1,0 +1,44 @@
+.card__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.card__heading_text {
+  text-align: center;
+  padding: 0 15rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 5rem;
+  column-gap: 3rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card__images {
+  position: relative;
+  width: 2erm;
+  height: 2erm;
+}
+.card__dot {
+  position: absolute;
+  right: -0.5rem;
+  top: -0.5rem;
+  z-index: -1;
+}
+.card__img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.card__text {
+  text-align: center;
+}

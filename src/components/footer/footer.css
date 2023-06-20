@@ -1,0 +1,36 @@
+.footer {
+  padding: 2rem 8rem;
+  padding-top: 8rem;
+  background-color: var(--color-brand);
+  color: #fff;
+}
+.footer__nav_box {
+  display: flex;
+  gap: 10rem;
+}
+
+.footer__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.copyright__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer a {
+  font-size: 1.4rem;
+}
+
+.copyright__box p {
+  font-size: 1rem;
+  font-weight: 400;
+}

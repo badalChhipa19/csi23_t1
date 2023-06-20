@@ -1,0 +1,18 @@
+.section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.story__1,
+.story__2 {
+  display: flex;
+  gap: 3rem;
+}
+
+.story__1_content,
+.story__2_content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+}

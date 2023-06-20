@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  padding: 2rem 8rem;
+}
+.list__item {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,29 @@
+.section3 {
+  color: var(--color-white);
+  padding: 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(229, 9, 9, 0.69),
+      rgba(229, 9, 9, 0.69)
+    ),
+    url("../img/s3bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section3__heding_box p {
+  text-align: center;
+}
+.forword {
+  border: 2px solid var(--color-white);
+  padding: 0.4rem 0.6rem;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+.section3__content_box {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
